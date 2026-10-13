@@ -1,13 +1,25 @@
 {
   "name": "ellis-claude-mods",
-  "owner": { "name": "Ellis", "url": "https://github.com/ellis0207" },
-  "metadata": { "description": "Ellis's Claude Mods: reusable Claude Code mods and skills." },
+  "owner": {
+    "name": "Ellis",
+    "url": "https://github.com/ellis0207"
+  },
+  "metadata": {
+    "description": "Ellis's Claude Mods: reusable Claude Code mods and skills."
+  },
   "plugins": [
     {
       "name": "savvy-progress",
       "source": "./plugins/savvy-progress",
       "description": "Mod: progress bar above the prompt and a live agents panel (/agents-info). From johnnyvizz/claude-kit, MIT.",
       "version": "1.2.1",
+      "category": "mod"
+    },
+    {
+      "name": "skins",
+      "source": "./plugins/skins",
+      "description": "Mod: tool rows with icons and timings, diff, table, code, math and Mermaid cards, a usage band, a calm mode and fifteen themes; /skin swaps them live. From hellosverre/claude-skins, MIT.",
+      "version": "0.5.6",
       "category": "mod"
     }
   ]

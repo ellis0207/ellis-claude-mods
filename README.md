@@ -5,6 +5,7 @@ Reusable [Claude Code](https://claude.com/claude-code) mods, one plugin per fold
 | Mod | What it does | Source |
 | --- | --- | --- |
 | [savvy-progress](plugins/savvy-progress) | A progress bar above the prompt and a live agents panel (`/agents-info`) showing running, finished and planned subagents with model, progress, context, estimated cost and time. | [johnnyvizz/claude-kit](https://github.com/JohnnyVizz/claude-kit/tree/main/plugins/savvy-progress) @ `c871c15`, MIT |
+| [skins](plugins/skins) | Tool calls with icons and timings, edits as diff cards, tables, code, math and Mermaid charts as cards, a live usage band, a calm mode and fifteen themes. `/skin` picks and repaints them live. Its update toast tracks upstream releases; ask Claude to pull a new version in. | [hellosverre/claude-skins](https://github.com/hellosverre/claude-skins) @ `09bca4e`, MIT |
 
 ## Install
 
@@ -15,6 +16,7 @@ In Claude Code:
 ```
 /plugin marketplace add ellis0207/ellis-claude-mods
 /plugin install savvy-progress@ellis-claude-mods
+/plugin install skins@ellis-claude-mods
 ```
 
 Restart the session afterwards. Because this repo is private, Claude Code needs GitHub access to it (your `gh` login or git credentials).
